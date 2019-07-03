@@ -5,7 +5,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoienJpcGthIiwiYSI6ImNqZjRjcDNtcDBrazMzM244MHo3c
       center: [-98, 51],
       zoom: 4
     });
-   /*
+   
 map.on('click', function(e) {
   var features = map.queryRenderedFeatures(e.point, {
     layers: ['tooktoo'] // replace this with the name of the layer
@@ -19,7 +19,7 @@ map.on('click', function(e) {
 
   var popup = new mapboxgl.Popup({ offset: [0, -15] })
     .setLngLat(feature.geometry.coordinates)
-    .setHTML('<h3>' + feature.properties.name + '</h3><p>' + feature.properties.date + '</p>')
+    .setHTML('<h4>' + feature.properties.location + '</h4><p>' + feature.properties.date + '</p><p> day: ' + feature.properties.day + '</p>')
     .setLngLat(feature.geometry.coordinates)
     .addTo(map);
-}); */
+}); 
