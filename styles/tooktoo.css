@@ -7,9 +7,8 @@ body {
 #map {
  	position: center;
  	margin:auto;
-	height:630px;
-	width:1120px;
-	border-style:solid;
+	height:770px;
+	width:1500px;
       }
 h1 {
 	text-align: center;
@@ -19,8 +18,8 @@ h1 {
 
 #video{
 	position:relative;
-	margin-left:20%;
-	margin-right:15%;
+	margin-left:0%;
+	margin-right:0%;
 	margin-bottom:10px;
 	top:35px;
 }
@@ -28,4 +27,11 @@ h1 {
 #copyright{
 	margin-top:5%;
 	text-align:center;
+}
+#bio{
+	margin-left:10%;
+	font-family: Helvetica, sans-serif;
+	text-align:justify;
+	width:500px;
+
 }

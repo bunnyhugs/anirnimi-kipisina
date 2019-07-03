@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoienJpcGthIiwiYSI6ImNqZjRjcDNtcDBrazMzM244MHo3c
       container: 'map',
       style: 'mapbox://styles/zripka/cjx6jmeca03s21cnnb08jj1cw', // replace this with your style URL
       center: [-98, 51],
-      zoom: 3.75
+      zoom: 4
     });
    /*
 map.on('click', function(e) {
