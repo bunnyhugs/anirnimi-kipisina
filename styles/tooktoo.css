@@ -12,8 +12,18 @@ body {
       }
 h1 {
 	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
 	margin: 50px;
+	font-family:Garamond;
+}
+
+h2{
+	font-family: Garamond;
+	font-size: 2.1em;
+}
+h3{
+	text-align:center;
+	font-family:Helvetica;
+	font-size:1.5em;
 }
 
 #video{
@@ -31,7 +41,34 @@ h1 {
 #bio{
 	margin-left:10%;
 	font-family: Helvetica, sans-serif;
-	text-align:justify;
-	width:500px;
+	width:700px;
+	margin-top:100px;
 
+}
+#inukt{
+	width:100px;
+	float:left;
+	height:100px;
+	margin-left:170px;
+}
+#line{
+	width:100px;
+	float:left;
+	height:100px;
+	margin-left:80px;
+
+}
+#engl{
+	width:200px;
+	float:left;
+	height:100px;
+	
+}
+#clear{
+	clear:both;
+}
+#para{
+	margin-top:50px;
+	font-size:1.5em;
+	text-align:justify;
 }
