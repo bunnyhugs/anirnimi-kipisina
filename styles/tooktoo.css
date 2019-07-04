@@ -12,7 +12,8 @@ body {
       }
 h1 {
 	text-align: center;
-	margin: 50px;
+	margin-top: 50px;
+	margin-bottom:10px;
 	font-family:Garamond;
 }
 
@@ -69,6 +70,9 @@ h2{
 }
 #contact{
 	float:left;
+	font-family: Helvetica;
+	margin-left:250px;
+	margin-top: 880px;
 }
 #mapinstr{
 	font-family:helvetica;
@@ -80,5 +84,5 @@ h2{
 	text-align:justify;
 }
 #headings{
-	text-align: center;
+	text-align: left;
 }
