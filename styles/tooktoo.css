@@ -38,7 +38,6 @@ h2{
 	font-family: Helvetica, sans-serif;
 	width:700px;
 	margin-top:100px;
-
 }
 #inukt{
 	width:100px;
@@ -66,17 +65,10 @@ h2{
 	float:left;
 	margin-top:50px;
 	font-size:1.5em;
-	
+	z-index:1;
 }
 #contact{
 	float:left;
-	height:100px;
-	margin-left:10px;
-	font-family:helvetica;
-	border-style:solid;
-	padding:10px;
-	margin-top: 70px;
-	margin-left:190px;
 }
 #mapinstr{
 	font-family:helvetica;
