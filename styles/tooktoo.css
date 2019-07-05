@@ -7,8 +7,8 @@ body {
 #map {
  	position: center;
  	margin:auto;
-	height:770px;
-	width:1500px;
+	height:731px;
+	width:1300px;
       }
 h1 {
 	text-align: center;
@@ -72,13 +72,13 @@ h2{
 	float:left;
 	font-family: Helvetica;
 	margin-left:250px;
-	margin-top: 880px;
+	margin-top: 858px;
 }
 #mapinstr{
 	font-family:helvetica;
 	text-align:right;
 	position:relative;
-	margin-right:80px;
+	margin-right:110px;
 }
 #biosection{
 	text-align:justify;
