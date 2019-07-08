@@ -7,8 +7,8 @@ body {
 #map {
  	position: center;
  	margin:auto;
-	height:562.5px;
-	width:1000px;
+	height:500px;
+	width:100%;
       }
 h1 {
 	text-align: center;
@@ -24,27 +24,26 @@ h2{
 
 #video{
 	position:relative;
-	margin-bottom:10px;
+	margin-bottom:50px;
 	top:35px;
 	text-align:center;
 }
 
 #copyright{
-	margin-top:5%;
+	margin-top:50px;
 	text-align:center;
 	font-family:Helvetica;
 }
 #bio{
-	margin-left:10%;
-	font-family: Helvetica, sans-serif;
-	width:700px;
-	margin-top:100px;
+     padding: 100px 10px 0px;
+     font-family: Helvetica, sans-serif;
 }
 #inukt{
-	width:100px;
+	max-width:100px;
 	float:left;
 	height:100px;
-	margin-left:170px;
+	margin-left: auto;
+        margin-right: auto;
 }
 #line{
 	width:10px;
@@ -53,32 +52,31 @@ h2{
 	margin-left:50px;
 }
 #engl{
-	width:200px;
+	max-width:200px;
 	float:left;
 	height:100px;
-	margin-left:10px;
+        padding-left: 0px;
 	
 }
 #clear{
 	clear:both;
 }
 #para{
-	float:left;
 	margin-top:50px;
 	font-size:1.5em;
 	z-index:1;
 }
 #contact{
-	float:left;
 	font-family: Helvetica;
-	margin-left:250px;
-	margin-top: 858px;
+	margin-left: 10px;
+        margin-right: 10px;
 }
 #mapinstr{
 	font-family:helvetica;
 	text-align:right;
 	position:relative;
-	margin-right:260px;
+	margin-left: auto;
+        margin-right: auto;
 }
 #biosection{
 	text-align:justify;
@@ -86,3 +84,11 @@ h2{
 #headings{
 	text-align: left;
 }
+#headings h2{
+    font-size: 1.5em;
+}
+.spacer {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

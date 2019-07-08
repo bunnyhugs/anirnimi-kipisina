@@ -4,7 +4,7 @@
   <head>
     <meta charset='utf-8' />
     <title>Hannah's Journey Across Canada</title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
 
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
@@ -12,14 +12,6 @@
   </head>
   
   <body>
-    <script type="text/javascript">
-    <!--
-    if (screen.width <= 699) {
-    alert("Mobile version coming soon!");
-    
-    }
-    //-->
-    </script>
     <h1>Hannah's Journey Across Canada</h1>
     <h1 style="font-size:1.1em;font-family:Helvetica;margin-bottom:50px;"><a href="https://gf.me/u/tvjyhd" style="text-decoration:none;">Click here to donate to fight for Inuit mental health and suicide prevention</a></h1>
 
@@ -48,17 +40,20 @@
       
     </div>
     
-    <div id="contact">
-      <a href="https://www.facebook.com/hannahsjourneyacrosscanada" style="text-decoration:none;"><image src="images/fb-icon.png" style="width:30px;height:30px;"></a><br><br><a href="https://twitter.com/HTooktoo" style="text-decoration:none;"><image src="images/twitter-icon.png" style="width:30px;height:30px;"> </a><br><br><a href="https://gf.me/u/tvjyhd" style="text-decoration:none;"><image src="images/gofundme-icon.png" style="width:30px;height:30px;"></a>
-        <div>
-          <p>anirnimi.kipisina@gmail.com</p>
-        </div>
+    <div id="contact">   
+      <span class="spacer"><a href="https://www.facebook.com/hannahsjourneyacrosscanada" style="text-decoration:none;"><image src="images/fb-icon.png" style="width:30px;height:30px;"></a></span>
+      <span class="spacer"><a href="https://twitter.com/HTooktoo" style="text-decoration:none;"><image src="images/twitter-icon.png" style="width:30px;height:30px;"> </a></span>
+      <a href="https://gf.me/u/tvjyhd" style="text-decoration:none;"><image src="images/gofundme-icon.png" style="width:30px;height:30px;"></a>
+        <span>
+          <p><a href="mailto:anirnimi.kipisina@gmail.com">anirnimi.kipisina@gmail.com</a></p>
+        </span>
     </div>
     <div id="clear"></div>
-    <div id='video'>
-      <iframe id="video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fhannahsjourneyacrosscanada%2Fvideos%2F303870250491921%2F&show_text=1&width=560" width="1300" height="831" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+    <div id="video">
+      <iframe id="video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fhannahsjourneyacrosscanada%2Fvideos%2F303870250491921%2F&show_text=1&width=560" width="100%" height="1000" scrolling="yes" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true" onload="resizeIframe(this);"></iframe>
     </div>
 
+    <div id="clear"></div>
     <div id='copyright'>
      <p>Zach Ripka 2019 | zripka@gmail.com</p>
     </div>

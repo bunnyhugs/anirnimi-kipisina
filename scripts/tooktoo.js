@@ -1,6 +1,4 @@
-if (screen.width <= 699) {
-alert("Mobile version coming soon!");
-}
+
 
 mapboxgl.accessToken = 'pk.eyJ1IjoienJpcGthIiwiYSI6ImNqZjRjcDNtcDBrazMzM244MHo3cXEyZnYifQ.Jpu-mLwgOjU-AzjXOho8wQ'; // replace this with your access token
     var map = new mapboxgl.Map({
